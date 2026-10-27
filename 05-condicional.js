@@ -45,3 +45,21 @@ if(eAdmin || eModerador) {
 } else {
     console.log("Acesso não autorizado.")
 }
+
+console.log("***** !- NOT (não) *****")
+
+console.log.og(!eAdmin)
+
+if(!estaLogado){
+    console.log("Faça login para continuar.")
+}
+
+const nome = "";
+if(!nome){
+    console.log("Preencha seu nome.");
+}
+
+const aceitouTermos = false
+if(!aceitouTermos){
+    console.log("Para continuar você precisa aceitar os termos.")
+}
