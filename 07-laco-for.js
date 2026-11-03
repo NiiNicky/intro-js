@@ -26,5 +26,8 @@ const numeroTabuada = prompt("Digite um número da tabuada que deseja ver:");
 console.log(numeroTabuada);
 
 for(let inicio = 1; inicio <= 10; inicio++){
-    console.log(` ${numeroTabuada} x ${inicio} = ${numeroTabuada * inicio} `);
+ const resultadoTabuada = numeroTabuada * inicio;
+ const mensagemTabuada = ` ${numeroTabuada} x ${inicio} = ${resultadoTabuada} `
+
+    console.log(mensagemTabuada);
 }
